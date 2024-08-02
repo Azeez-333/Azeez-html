@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(0, 0%, 90%)
+}
+
+#stop-watch{
+    font-size: 50px;
+    font-family: arial,sans-serif;
+    color: hsl(0, 0%, 30%);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 30px;
+     border: 5px solid;
+     border-radius: 50px;
+     background-color: white;
+     width: 45vw;
+     height: 33vh;
+
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(24, 40%, 50%);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom:60px;
+}
+
+#controls button {
+   font-size: 1.5rem;
+   font-size: bold;
+   padding: 20px 20px;
+   margin: 15px;
+   min-width:  125px;
+   border:none ;
+   border-radius: 50px;
+   cursor: pointer;
+   color: white;
+   transition: background-color 0.5s ease;
+}
+
+#startBtn{
+    background-color: rgba(0, 128, 0, 0.703);
+}
+
+#startBtn:hover{
+    background-color:rgba(255, 123, 47, 0.833);
+}
+
+#stopBtn{
+    background-color: rgb(128, 0, 47);
+}
+
+#stopBtn:hover{
+    background-color:rgba(128, 53, 0, 0.842);
+}
+
+#resetBtn{
+    background-color: rebeccapurple;
+}
+
+#resetBtn:hover{
+    background-color:blue;
+}

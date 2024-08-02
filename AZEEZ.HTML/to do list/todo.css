@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 243, 243);
+}
+.container{
+    background-color: rgba(193, 179, 91, 0.482);
+    width: 40vw;
+    height:auto;
+    margin-inline: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/* .title{
+    text-align: center;
+} */
+.input{
+    height: 35px;
+    width: 100%;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+.buttonTask{
+    height: 30px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #ece0e0;
+}
+.edit-button{
+    display: none;
+}
+.todo-list{
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    gap: 4px;
+}
+.add-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.button-wrapper{
+    display: flex;
+    gap: 4px;
+}
+.button-wrapper > button {
+    padding: 4px;
+    cursor: pointer;
+}
+.delete{
+    background-color: lightcoral;
+}
+.edit{
+    background-color: lightgreen;
+}
